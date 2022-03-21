@@ -12,6 +12,7 @@
   @media (max-width: 1023px) {
     display: block;
     .input-wrap,
+    .date-wrap,
     .btn-wrap {
       display: block;
       width: 100%;
@@ -30,4 +31,14 @@
   background: #c60c30;
   color: #fff;
   border-radius: 3px;
+
+  &:disabled{
+    background-color: #cccccc;
+  }
+
+  &:hover {
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%), inset 0 0 4px #a9a9a9;
+    cursor: pointer;
+  }
 }
+
